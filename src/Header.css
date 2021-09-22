@@ -1,15 +1,48 @@
 .header{
     display: flex;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgrey;
 }
 
 .burger{
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    cursor: pointer;
 }
 
-.yt-logo{
+.yt_logo{
     width: 150px;
     height: auto;
+}
+
+.searchBar{
+    width: 100%;
+    height: 35px;
+    margin-left: 45px;
+    margin-top: 24px;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid grey;
+}
+
+.searchBar__div{
+    width: 45%;
+    display: flex;
+}
+
+.searchIcon__div{
+    background-color: #F8F8F8;
+    height: 37px;
+    width: 60px;
+    margin-top: 24px;
+    border: 1px solid grey;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    border-left: none;
+    display: grid;
+    place-items: center;
+
+}
+
+.searchIcon{
 }
