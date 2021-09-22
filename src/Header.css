@@ -44,5 +44,21 @@
 
 }
 
-.searchIcon{
+.searchIcon > .MuiSvgIcon-root {
+    color: lightgrey !important;
+    font-size: 16px !important;
 }
+
+.searchBar::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  .header__icons{
+      display: flex;
+      margin-left: 300px;
+      justify-content: space-evenly;
+      width: 20%;
+      place-items: center;
+  }
