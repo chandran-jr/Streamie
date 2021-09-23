@@ -14,7 +14,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SideIcon icon= {<HomeIcon/>} text="Home" />
+            <SideIcon selected icon= {<HomeIcon/>} text="Home" />
             <SideIcon icon= {<ExploreIcon/>} text="Explore" />
             <SideIcon icon= {<SubscriptionsIcon/>} text="Subscriptions" />
             <div className="hr"></div>

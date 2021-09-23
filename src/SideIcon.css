@@ -20,6 +20,11 @@
     transition: color 150ms ease-out;
 }
 
+.sideicon.selected{
+    background-color: red;
+    color: white;
+}
+
 .sideicon__text{
     font-size: 15px;
     margin-left: 16px;

@@ -1,9 +1,9 @@
 import React from 'react';
 import './SideIcon.css';
 
-function SideIcon({icon, text}) {
+function SideIcon({selected,icon, text}) {
     return (
-        <div className="sideicon">
+        <div className={`sideicon ${selected && "selected"}`}>
           <div className="sideicon__icon">
           {icon}
           </div>
