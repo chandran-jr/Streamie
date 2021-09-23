@@ -2,7 +2,9 @@
     display: flex;
     border-bottom: 1px solid lightgrey;
     position: sticky;
+    top: 0;
     place-items: center;
+    z-index: 100;
 }
 
 .burger{
@@ -67,4 +69,5 @@
   .header__iconFirst{
       margin-left: 30%;
       min-width: 10px;
+      cursor: pointer;
   }
