@@ -1,23 +1,24 @@
 .header{
     display: flex;
     border-bottom: 1px solid lightgrey;
+    position: sticky;
+    place-items: center;
 }
 
 .burger{
-    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     cursor: pointer;
 }
 
 .yt_logo{
-    width: 150px;
+    width: 10%;
     height: auto;
+    min-width: 100px;
 }
 
 .searchBar{
     width: 100%;
-    height: 38.5px;
     outline: none;
     border: none;
     border-radius: 10px 0 0 10px;
@@ -26,9 +27,9 @@
 
 .searchBar__div{
     width: 45%;
+    min-width: 250px;
     display: flex;
     margin-left: 45px;
-    margin-top: 24px;
     border: 1px solid grey;
     height: 40px;
     border-radius: 10px 10px 10px 10px;
@@ -53,8 +54,17 @@
 
   .header__icons{
       display: flex;
-      margin-left: 300px;
       justify-content: space-evenly;
-      width: 20%;
+      width: 40%;
+      min-width: 300px;
       place-items: center;
+  }
+
+  .header__icon{
+      cursor: pointer;
+  }
+
+  .header__iconFirst{
+      margin-left: 30%;
+      min-width: 10px;
   }

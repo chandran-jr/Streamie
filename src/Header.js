@@ -22,10 +22,10 @@ function Header() {
              </div>
 
              <div className="header__icons">
-                 <VideoCallIcon/>
-                 <AppsIcon/>
-                 <NotificationsIcon/>
-                 <Avatar alt="Remy Sharp" src="https://i.pinimg.com/originals/11/05/0c/11050c5daab38e515f788abbf474e795.jpg" />
+                 <VideoCallIcon className="header__iconFirst"/>
+                 <AppsIcon className="header__icon"/>
+                 <NotificationsIcon className="header__icon"/>
+                 <Avatar className="header__icon" alt="Avatar" src="https://i.pinimg.com/originals/11/05/0c/11050c5daab38e515f788abbf474e795.jpg" />
              </div>
         </div>
     )
