@@ -45,30 +45,6 @@ function VideoTopics() {
                 <h2>Music</h2>
             </div>
 
-            <div className="videotopics__topic">
-                <h2>Matt Stonie</h2>
-            </div>
-
-            <div className="videotopics__topic">
-                <h2>Markiplier</h2>
-            </div>
-
-            <div className="videotopics__topic">
-                <h2>F1</h2>
-            </div>
-
-            <div className="videotopics__topic">
-                <h2>DevBees</h2>
-            </div>
-
-            <div className="videotopics__topic">
-                <h2>Firebase</h2>
-            </div>
-
-            <div className="videotopics__topic">
-                <h2>Annie Dube</h2>
-            </div>
-
         </div>
     )
 }
