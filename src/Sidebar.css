@@ -1,3 +1,4 @@
 .sidebar{
-    flex: 0.2;
+    flex: 0.15;
+    place-items: center;
 }
