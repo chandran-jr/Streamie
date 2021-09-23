@@ -2,3 +2,8 @@
     flex: 0.15;
     place-items: center;
 }
+
+.hr{
+    background-color: lightgrey;
+    height: 1px;
+}

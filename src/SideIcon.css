@@ -1,20 +1,26 @@
 .sideicon{
     display: flex;
     margin-top: 5px;
-    justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
     width: 80%;
     height: 60px;
-    border-radius: 0 40px 40px 0;;
+    border-radius: 0 40px 40px 0;
+    color: red;
 
+}
+
+.sideicon__icon{
+    margin-left: 10%;
 }
 
 .sideicon:hover{
-    background-color: lightgrey;
+    background-color: red;
+    color: white;
+    transition: color 150ms ease-out;
 }
 
 .sideicon__text{
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 16px;
 }

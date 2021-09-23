@@ -15,6 +15,15 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <SideIcon icon= {<HomeIcon/>} text="Home" />
+            <SideIcon icon= {<ExploreIcon/>} text="Explore" />
+            <SideIcon icon= {<SubscriptionsIcon/>} text="Subscriptions" />
+            <div className="hr"></div>
+            <SideIcon icon= {<VideoLibraryIcon/>} text="Library" />
+            <SideIcon icon= {<HistoryIcon/>} text="History" />
+            <SideIcon icon= {<OndemandVideoIcon/>} text="Your Videos" />
+            <SideIcon icon= {<WatchLaterIcon/>} text="Watch Later" />
+            <SideIcon icon= {<ThumbUpIcon/>} text="Liked Videos" />
+            <SideIcon icon= {<KeyboardArrowDownIcon/>} text="See More" />
 
         </div>
     )
