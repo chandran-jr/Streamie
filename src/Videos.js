@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Videos.css';
+import VideoTopics from './VideoTopics';
 
 function Videos() {
     return (
         <div className="videos">
-            <h1>Videos</h1>
+
+            <VideoTopics/>
+            
         </div>
     )
 }

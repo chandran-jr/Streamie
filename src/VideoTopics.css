@@ -1,0 +1,33 @@
+.videotopics{
+    border-top: 1px solid lightgrey;
+    margin-top: 5px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    height: 10%;
+    place-items: center;
+}
+
+.videotopics__topic{
+    background-color: #E5E5E5;
+    border: 1px solid silver;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 10%;
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.videotopics__topic > h2 {
+    font-weight: 400;
+}
+
+.videotopics__topic:hover{
+    background-color: red;
+    color: white;
+}
