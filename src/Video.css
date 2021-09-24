@@ -29,6 +29,8 @@
 .video__logo{
     margin-top: 10px;
     margin-right: 20px;
+    width: 30px !important;
+    height: 30px !important;
 }
 
 .video__text{
