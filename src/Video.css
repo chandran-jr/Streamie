@@ -1,0 +1,28 @@
+.video__Thumbnail{
+    width: 280px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.video{
+    padding: 40px;
+}
+
+.video__info{
+    display: flex;
+    cursor: pointer;
+}
+
+.video__logo{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.video__text{
+    margin-top: 10px;
+    width: 240px;
+}
+
+.video__text > p {
+    color: #606060;
+}

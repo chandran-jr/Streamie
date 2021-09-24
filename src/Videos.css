@@ -1,3 +1,9 @@
 .videos{
     flex: 0.85;
 }
+
+.videos__VideoTopics{
+    position: sticky;
+    z-index: 50;
+    top: 50;
+}

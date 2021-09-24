@@ -5,9 +5,7 @@
     height: 10%;
     display: flex;
     place-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    background-color: white;
 }
 
 .videotopics__topic{

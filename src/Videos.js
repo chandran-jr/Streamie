@@ -7,7 +7,7 @@ function Videos() {
     return (
         <div className="videos">
 
-            <VideoTopics/>
+            <VideoTopics className="videos__VideoTopics"/>
 
             <YouTubeVids/>
             
