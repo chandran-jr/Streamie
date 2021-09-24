@@ -2,10 +2,12 @@ import React from 'react';
 import './Video.css';
 import Avatar from '@mui/material/Avatar';
 
-function Video({image,title,channel,views,avatarimg}) {
+function Video({image,title,channel,views,avatarimg,time,url}) {
     return (
         <div className="video">
+            <a href={url} target="blank">
             <img src={image} alt="Thumbnails" className="video__Thumbnail"/>
+            <h5 className="video__time">{time}</h5>
             <div className="video__info">
                 <Avatar src={avatarimg} alt="logo" className="video__logo" />
                 <div className="video__text">
@@ -14,6 +16,7 @@ function Video({image,title,channel,views,avatarimg}) {
                     <p>{views} views</p>
                 </div>
             </div>
+            </a>
         </div>
     )
 }

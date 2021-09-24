@@ -7,7 +7,18 @@
 .video{
     margin-top: 20px;
     margin-left: 35px;
-    
+    position: relative;
+
+}
+
+.video__time{
+    color: white;
+    background-color: black;
+    max-width: fit-content;
+    padding: 0px 5px 0px 5px;
+    position: absolute;
+    top:130px;
+    left: 210px;
 }
 
 .video__info{
@@ -31,4 +42,10 @@
 
 .video__text > h3 {
     font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }
