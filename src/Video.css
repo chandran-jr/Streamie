@@ -1,5 +1,5 @@
 .video__Thumbnail{
-    width: 260px;
+    width: 280px;
     height: 155px;
     cursor: pointer;
 }
@@ -35,7 +35,8 @@
 
 .video__text{
     margin-top: 10px;
-    width: 200px;
+    width: 230px;
+    font-size: 14px;
 }
 
 .video__text > p {
@@ -43,9 +44,10 @@
 }
 
 .video__text > h3 {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
+    font-weight: 600;
 }
 
 a{
