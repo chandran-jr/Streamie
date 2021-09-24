@@ -2,7 +2,7 @@ import React from 'react';
 import './Video.css';
 import Avatar from '@mui/material/Avatar';
 
-function Video({image,title,channel,views,avatarimg,time,url}) {
+function Video({avatarimg,channel,image,time,title,url,views}) {
     return (
         <div className="video">
             <a href={url} target="blank">
