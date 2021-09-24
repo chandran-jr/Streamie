@@ -58,9 +58,10 @@
   .header__icons{
       display: flex;
       justify-content: space-evenly;
-      width: 40%;
+      width: 30%;
       min-width: 300px;
       place-items: center;
+      margin-left: 25%;
   }
 
   .header__icon{
@@ -68,7 +69,6 @@
   }
 
   .header__iconFirst{
-      margin-left: 30%;
       min-width: 10px;
       cursor: pointer;
   }
