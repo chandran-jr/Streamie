@@ -1,11 +1,12 @@
 .video__Thumbnail{
-    width: 280px;
+    width: 270px;
     height: 160px;
     cursor: pointer;
 }
 
 .video{
-    padding: 40px;
+    margin-top: 20px;
+    margin-left: 35px;
 }
 
 .video__info{
@@ -20,9 +21,13 @@
 
 .video__text{
     margin-top: 10px;
-    width: 240px;
+    width: 200px;
 }
 
 .video__text > p {
     color: #606060;
+}
+
+.video__text > h3 {
+    font-size: 16px;
 }
