@@ -2,10 +2,15 @@
     border-top: 1px solid lightgrey;
     margin-top: 10px;
     border-bottom: 1px solid lightgrey;
-    height: 10%;
+    height: 60px;
     display: flex;
+    flex-wrap: wrap;
     place-items: center;
     background-color: white;
+    min-height: fit-content;
+    overflow: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
 }
 
 .videotopics__topic{
@@ -13,13 +18,12 @@
     border: 1px solid silver;
     cursor: pointer;
     border-radius: 30px;
+    margin: 10px;
     font-size: 12px;
     padding: 4px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .videotopics__topic > h2 {

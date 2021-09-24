@@ -22,7 +22,7 @@ function Header() {
              </div>
 
              <div className="header__icons">
-                 <VideoCallIcon className="header__iconFirst"/>
+                 <VideoCallIcon className="header__icon"/>
                  <AppsIcon className="header__icon"/>
                  <NotificationsIcon className="header__icon"/>
                  <Avatar className="header__icon" alt="Avatar" src="https://i.pinimg.com/originals/11/05/0c/11050c5daab38e515f788abbf474e795.jpg" />

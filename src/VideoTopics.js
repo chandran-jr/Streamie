@@ -45,6 +45,26 @@ function VideoTopics() {
                 <h2>Music</h2>
             </div>
 
+            <div className="videotopics__topic">
+                <h2>Flutter</h2>
+            </div>
+
+            <div className="videotopics__topic">
+                <h2>Devbees</h2>
+            </div>
+
+            <div className="videotopics__topic">
+                <h2>Coding</h2>
+            </div>
+
+            <div className="videotopics__topic">
+                <h2>Cooking</h2>
+            </div>
+
+            <div className="videotopics__topic">
+                <h2>DIY</h2>
+            </div>
+
         </div>
     )
 }

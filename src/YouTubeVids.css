@@ -1,13 +1,7 @@
 .youtubevids{
     background-color: #F9F9F9;
     height: 100%;
-}
-
-.youtubevids::-webkit-scrollbar{
-    display: none;
-}
-
-.youtubevids__vids{
     display: flex;
+    overflow-y: auto;
     flex-wrap: wrap;
 }

@@ -6,6 +6,7 @@
     place-items: center;
     z-index: 100;
     background-color: white;
+    width: 100%;
 }
 
 .burger{
@@ -30,8 +31,8 @@
 
 .searchBar__div{
     width: 45%;
-    min-width: 250px;
     display: flex;
+    min-width: 120px;
     margin-left: 45px;
     border: 1px solid grey;
     height: 40px;
@@ -59,16 +60,11 @@
       display: flex;
       justify-content: space-evenly;
       width: 30%;
-      min-width: 300px;
       place-items: center;
       margin-left: 25%;
+      min-width: 200px;
   }
 
   .header__icon{
-      cursor: pointer;
-  }
-
-  .header__iconFirst{
-      min-width: 10px;
       cursor: pointer;
   }
