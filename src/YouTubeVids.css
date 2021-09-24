@@ -1,7 +1,9 @@
 .youtubevids{
     background-color: #F9F9F9;
-    height: 100%;
     display: flex;
-    overflow-y: auto;
+    height: 580px;
     flex-wrap: wrap;
+    overflow-y: scroll;
+
+
 }

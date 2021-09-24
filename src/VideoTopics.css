@@ -11,6 +11,9 @@
     overflow: auto;
     overflow-x: hidden;
     white-space: nowrap;
+    z-index: 50;
+    position: sticky;
+    top: 0
 }
 
 .videotopics__topic{
