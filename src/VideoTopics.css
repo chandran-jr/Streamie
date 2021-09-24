@@ -16,6 +16,10 @@
     top: 0
 }
 
+.videotopics::-webkit-scrollbar{
+    display: none;
+}
+
 .videotopics__topic{
     background-color: #E5E5E5;
     border: 1px solid silver;

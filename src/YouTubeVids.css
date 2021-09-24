@@ -4,6 +4,8 @@
     height: 580px;
     flex-wrap: wrap;
     overflow-y: scroll;
+}
 
-
+.youtubevids::-webkit-scrollbar{
+    display: none;
 }
