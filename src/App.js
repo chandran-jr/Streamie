@@ -14,20 +14,22 @@ function App() {
     <div className="app">
 
         <Router>
+
+          <Header/>
+
           <Switch>
 
-          <Route path="/search">
-              <Header/>
-            </Route>
+             <Route path="/search">
 
-            <Route path="/">
-            <Header/>
-            <div className="app__Container">
-              <Sidebar/>
-              <Videos/>
-            </div>
-            </Route>
-            
+              </Route>
+
+              <Route path="/">
+                <div className="app__Container">
+                <Sidebar/>
+                <Videos/>
+                </div>
+              </Route>
+
           </Switch>
         </Router>
 
