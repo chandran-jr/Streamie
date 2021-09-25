@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Streamie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+<img src="screenshots/ss1"/>
+<img src="screenshots/ss1"/>
+<img src="screenshots/ss1"/>
 
 ### `npm start`
 
