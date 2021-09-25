@@ -6,7 +6,7 @@
 
 .searchpage__filter {
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 30px;
     display: flex;
 }
 
@@ -23,7 +23,57 @@
 
 .searchpage__hr{
     opacity: 0.4;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 10px;
-    width: 60%;
+    width: 65%;
+}
+
+.searchpage__channel {
+    margin-left: 12%;
+    margin-top: 16px;
+    display: flex;
+}
+
+.searchpage__avatar {
+    width: 10% !important;
+    height: 10% !important;
+    min-width: 70px !important;
+    min-height: 70px !important;
+}
+
+.searchpage__channelDesc{
+    margin-left: 10%;
+}
+
+.searchpage__channelDesc > h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 450;
+}
+
+.searchpage__channelDesc > p {
+    font-size: 12.8px;
+    color: grey;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.searchpage__subscribe {
+    background-color: red !important;
+    height: 30px;
+    margin-top: 25px !important;
+    margin-left: 50px !important;
+}
+
+.searchpage__notification {
+    color: grey !important;
+    margin-top: 25px !important;
+    margin-left: 15px !important;
+}
+
+.searchpage__hr2 {
+    opacity: 0.4;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 65%;
 }

@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import SearchPage from './SearchPage';
+import NoResult from './NoResult';
 
 
 function App() {
@@ -20,10 +21,17 @@ function App() {
 
           <Switch>
 
-             <Route path="/search/:searchTerm">
+          <Route path="/search/devbees">
              <div className="app__Container">
                 <Sidebar/>
                 <SearchPage/>
+                </div>
+              </Route>
+
+          <Route path="/search/:searchTerm">
+             <div className="app__Container">
+                <Sidebar/>
+                <NoResult/>
                 </div>
               </Route>
 
