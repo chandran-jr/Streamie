@@ -27,7 +27,7 @@ function Header() {
 
              <Link to={`/search/${input}`}>
              <div className="searchIcon__div">
-             <SearchIcon onClick={search}/>
+             <SearchIcon className="header__searchicon" onClick={search}/>
              </div>
              </Link>
 
