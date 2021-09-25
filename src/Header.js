@@ -12,10 +12,6 @@ function Header() {
 
     const [input,setInput] = useState("");
 
-    const search = () => {
-        
-    }
-
     return (
         <div className="header">
             <MenuIcon className="burger"/>
@@ -27,7 +23,7 @@ function Header() {
 
              <Link to={`/search/${input}`}>
              <div className="searchIcon__div">
-             <SearchIcon className="header__searchicon" onClick={search}/>
+             <SearchIcon className="header__searchicon"/>
              </div>
              </Link>
 

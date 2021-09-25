@@ -10,11 +10,16 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Link } from "react-router-dom";
 
 function Sidebar() {
     return (
         <div className="sidebar">
+            <Link to="/">
             <SideIcon selected icon= {<HomeIcon/>} text="Home" />
+            </Link>
+
+            <Link to="/search/hhh">
             <SideIcon icon= {<ExploreIcon/>} text="Explore" />
             <SideIcon icon= {<SubscriptionsIcon/>} text="Subscriptions" />
             <div className="hr"></div>
@@ -24,6 +29,7 @@ function Sidebar() {
             <SideIcon icon= {<WatchLaterIcon/>} text="Watch Later" />
             <SideIcon icon= {<ThumbUpIcon/>} text="Liked Videos" />
             <SideIcon icon= {<KeyboardArrowDownIcon/>} text="See More" />
+            </Link>
 
         </div>
     )
