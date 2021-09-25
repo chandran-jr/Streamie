@@ -1,8 +1,8 @@
 # Streamie
 
-<img src="screenshots/ss1"/>
-<img src="screenshots/ss1"/>
-<img src="screenshots/ss1"/>
+<img src="screenshots/ss1.PNG"/>
+<img src="screenshots/ss2.PNG"/>
+<img src="screenshots/ss3.PNG"/>
 
 ### `npm start`
 
