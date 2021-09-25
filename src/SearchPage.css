@@ -1,3 +1,29 @@
 .searchpage{
     flex: 0.835;
+    background-color: #F9F9F9; 
+    height: 700px;
+}
+
+.searchpage__filter {
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.searchpage__filtericon {
+    color: grey;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.searchpage__filter > h4{ 
+    color: grey;
+    cursor: pointer;
+}
+
+.searchpage__hr{
+    opacity: 0.4;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 60%;
 }
