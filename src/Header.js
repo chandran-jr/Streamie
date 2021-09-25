@@ -19,7 +19,7 @@ function Header() {
              <img className="yt_logo" src="https://www.depts.ttu.edu/provost/humanities-center/images/YouTubeLogo.jpg" alt="YouTube Logo" />
 
              <div className="searchBar__div">
-             <input onChange={e => setInput(e.target.value)} value={input} placeholder="Press Search icon to search" className="searchBar" type="text"/>
+             <input onChange={e => setInput(e.target.value)} value={input} placeholder="Press search icon to search" className="searchBar" type="text"/>
 
              <Link to={`/search/${input}`}>
              <div className="searchIcon__div">
