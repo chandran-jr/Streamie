@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
@@ -6,8 +6,16 @@ import VideoCallIcon from '@mui/icons-material/VideoCall';
 import AppsIcon from '@mui/icons-material/Apps';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Avatar from '@mui/material/Avatar';
+import { Link } from "react-router-dom";
 
 function Header() {
+
+    const [input,setInput] = useState("");
+
+    const search = () => {
+        
+    }
+
     return (
         <div className="header">
             <MenuIcon className="burger"/>
@@ -15,10 +23,14 @@ function Header() {
              <img className="yt_logo" src="https://www.depts.ttu.edu/provost/humanities-center/images/YouTubeLogo.jpg" alt="YouTube Logo" />
 
              <div className="searchBar__div">
-             <input placeholder="Search" className="searchBar" type="text"/>
+             <input onChange={e => setInput(e.target.value)} value={input} placeholder="Search" className="searchBar" type="text"/>
+
+             <Link to={`/search/${input}`}>
              <div className="searchIcon__div">
-             <SearchIcon/>
+             <SearchIcon onClick={search}/>
              </div>
+             </Link>
+
              </div>
 
              <div className="header__icons">

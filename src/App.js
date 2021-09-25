@@ -19,7 +19,7 @@ function App() {
 
           <Switch>
 
-             <Route path="/search">
+             <Route path="/search/:searchTerm">
 
               </Route>
 

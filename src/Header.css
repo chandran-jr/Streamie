@@ -9,6 +9,9 @@
     width: 100%;
 }
 
+.header__searchicon > .MuiSvgIcon-root {
+    color: lightgrey !important;
+}
 .burger{
     padding-left: 30px;
     padding-right: 30px;
