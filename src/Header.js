@@ -19,7 +19,7 @@ function Header() {
     return (
         <div className="header">
             <MenuIcon className="burger"/>
-
+                
              <img className="yt_logo" src="https://www.depts.ttu.edu/provost/humanities-center/images/YouTubeLogo.jpg" alt="YouTube Logo" />
 
              <div className="searchBar__div">

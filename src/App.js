@@ -7,6 +7,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import SearchPage from './SearchPage';
 
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
           <Switch>
 
              <Route path="/search/:searchTerm">
-
+             <div className="app__Container">
+                <Sidebar/>
+                <SearchPage/>
+                </div>
               </Route>
 
               <Route path="/">
