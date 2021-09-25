@@ -1,9 +1,5 @@
 # Streamie
 
-## A YouTube clone focused on the UI, built using React, 
-## Material-UI, Firebase for hosting and cloud-firestore 
-## for the backend database
-
 <img src="screenshots/ss1.PNG"/>
 <img src="screenshots/ss2.PNG"/>
 <img src="screenshots/ss3.PNG"/>
